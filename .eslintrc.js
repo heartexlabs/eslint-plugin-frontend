@@ -48,6 +48,10 @@ module.exports = {
       requireParamDescription: false,
       requireReturnDescription: false,
     }],
+    'quote-props': ['error', 'consistent', {
+      keywords: true,
+      unnecessary: false,
+    }],
   },
   overrides: [
     {

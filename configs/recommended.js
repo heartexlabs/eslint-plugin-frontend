@@ -68,6 +68,12 @@ module.exports = {
       },
       multilineDetection: 'brackets',
     }],
+    'quotes': ['error', 'single'],
+    'quote-props': ['error', 'consistent', {
+      keywords: true,
+      unnecessary: false,
+      numbers: true,
+    }],
     'sort-imports': ['error', {
       ignoreCase: true,
       ignoreDeclarationSort: true,
@@ -76,7 +82,7 @@ module.exports = {
       memberSyntaxSortOrder: ['all', 'single', 'multiple', 'none'],
     }],
     'no-async-promise-executor': 'off',
-    semi: [2, 'always'],
+    'semi': [2, 'always'],
     'comma-dangle': ['error', {
       imports: 'never',
       exports: 'never',
@@ -87,8 +93,8 @@ module.exports = {
     'object-curly-spacing': ['error', 'always'],
     'array-bracket-spacing': ['error', 'never'],
     'object-shorthand': ['error', 'always'],
-    eqeqeq: ['error', 'always'],
-    indent: 'off',
+    'eqeqeq': ['error', 'always'],
+    'indent': 'off',
     'newline-after-var': ['error', 'always'],
     'space-unary-ops': [2, {
       words: true,

@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-lsf",
+  "name": "@heartexlabs/eslint-plugin-frontend",
   "version": "1.0.0",
   "description": "Set of rules used in Label Studio frontend repos",
   "main": "index.js",
@@ -11,7 +11,7 @@
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.45.0",
     "@typescript-eslint/parser": "^5.45.0",
     "eslint": "^8.2.0",
