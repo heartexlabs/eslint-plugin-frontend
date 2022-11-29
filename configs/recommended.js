@@ -49,6 +49,12 @@ module.exports = {
       SwitchCase: 1,
       MemberExpression: 1,
     }],
+    '@typescript-eslint/no-unused-vars': ['error', {
+      'vars': 'all',
+      'args': 'after-used',
+      'varsIgnorePattern': '^_',
+      'argsIgnorePattern': '^_',
+    }],
     '@typescript-eslint/member-delimiter-style': ['error', {
       multiline: {
         delimiter: 'comma',
