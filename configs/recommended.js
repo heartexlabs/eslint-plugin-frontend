@@ -113,6 +113,7 @@ module.exports = {
       'mode': 'strict',
     }],
     'indent': ['error', 2],
+    'eol-last': ['error', 'always'],
     'newline-after-var': ['error', 'always'],
     'space-unary-ops': [2, {
       words: true,
