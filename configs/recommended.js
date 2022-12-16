@@ -100,7 +100,6 @@ module.exports = {
     'array-bracket-spacing': ['error', 'never'],
     'object-shorthand': ['error', 'always'],
     'eqeqeq': ['error', 'always'],
-    'space-after-keywords': ['error', 'always'],
     'space-in-parens': ['error', 'never'],
     'space-in-brackets': ['error', 'always'],
     'space-before-blocks': ['error', 'always'],
