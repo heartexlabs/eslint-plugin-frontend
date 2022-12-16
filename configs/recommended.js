@@ -105,7 +105,7 @@ module.exports = {
     'space-before-blocks': ['error', 'always'],
     'block-spacing': ['error', 'always'],
     'keyword-spacing': ['error', 'always'],
-    'space-infix-ops': 'error',
+    'space-infix-ops': ['error'],
     'no-multi-spaces': ['error'],
     'key-spacing': ['error', {
       'afterColon': true,
